@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+nav{
+    background-color: #181818;
+}
+
+.fa-search{
+    color: #fff;
+    background-color: #323232;
+    padding: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    right: 68px;
+    position: relative;
+}
+
+.close-icon{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 10px;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    right: 70px;
+    position: relative;
+    
+}
+
+.fa-microphone{
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-card h1{
+    font-size: x-large;
+}
+
+.title-card button a{
+    background-color: darkred;
+    padding: 5px 25px;
+    border-radius: 4px;
+}
+
+.form{
+    width: 100vw;
+    height: 100vh;
+    background-color: firebrick;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 60%;
+    background-color: tomato;   
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+form h2{
+    text-align: center;
+    color: #fff;
+}
+
+span{
+    font-size: large;
+    color: #fff;
+}
+
+label{
+    margin: 10px 0px 7px 0px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+input[type="radio"]{
+    margin-top: 30px;
+}
+
+input, textarea{
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    margin-top: 5px;
+}
+
+form button{
+    background-color: rgb(18, 111, 17);
+    margin: 20px 0;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    box-shadow: 1px 2px 4px black;
+    transform: translateY(1.5px);
+}
+
+form button:active{
+    transition: all;
+    transform: translateY(4);
+}
+
+form button a{  
+    color: #fff;
+    text-decoration: none;
+}
